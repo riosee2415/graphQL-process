@@ -1,5 +1,7 @@
 # GraphQL
 
+- [ ] yarn add graphql-yoga
+
 ![logo](./support/01.png)
 
 1.  Over-fetching
@@ -12,3 +14,10 @@
     <pre>
        하나의 Data를 얻기 위해 여러 URL을 호출해야 하는 문제를 해결한다.
     </pre>
+
+## babel install [ IF YOU WNAT, append '--dev' when install ]
+
+- [ ] yarn global add babel-cli
+- [ ] yarn add babel-cli
+- [ ] yarn add babel-preset-env
+- [ ] yarn add babel-preset-stage-3
