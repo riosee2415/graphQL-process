@@ -1,6 +1,8 @@
+import { getMovies } from "./db";
+
 const resolvers = {
   Query: {
-    name: () => "4leaf.ysh"
+    movies: (_, { rating, limit }) => getMovies(limit, rating)
   }
 };
 
